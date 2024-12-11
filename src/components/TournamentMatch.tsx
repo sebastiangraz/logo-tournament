@@ -70,11 +70,11 @@ export const TournamentMatch: React.FC<TournamentMatchProps> = ({
       <div className={`browsertab-container`}>
         <div className={`tab`}>
           <LogoOne logo={logo1} onSelect={onSelect} width={16} />
-          <span>Fountain</span>
+          <span>Browser</span>
         </div>
         <div className={`tab`}>
           <LogoTwo logo={logo2} onSelect={onSelect} width={16} />
-          <span>Fountain</span>
+          <span>Browser</span>
         </div>
       </div>
     </div>
